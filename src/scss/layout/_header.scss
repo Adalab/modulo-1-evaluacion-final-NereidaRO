@@ -1,0 +1,27 @@
+.header {
+    background-color: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+
+    &__title {
+        display: none;
+    }
+
+    &__logo {
+        height: 96px;
+        width: 213px;
+    }
+
+    &__logo--img {
+        height: 96px;
+        width: 213px;
+    }
+
+    &__icon {
+        position: fixed;
+        top: 4%;
+        left: 2%;
+    }
+}

@@ -16,8 +16,8 @@
 </head>
 
 <body>
-  <header>
-      <h1>Open Spaces</h1>
+  <header class="header">
+      <h1 class="header__title">Open Spaces</h1>
       <!--Leer README.md-->
       <div class="header__icon">
           <a href="https://adalab.es/">
@@ -25,18 +25,19 @@
           </a>
       </div>
       <figure class="header__logo">
-          <img src="./assets/images/logo.png" alt="flor con nombre de la empresa" title="Open Spaces" />
+          <img clas="header__logo--img" src="./assets/images/logo.png" alt="flor con nombre de la empresa"
+              title="Open Spaces" />
       </figure>
   </header>
   <!--Flexbox-->
 
   <section class="first">
-      <h2 class="first__title">Disfruta creando espacios</h2>
-      <button class="first__button">Comprar ahora</button>
+      <h2 class="first__title title-green">Disfruta creando espacios</h2>
+      <button class="first__button button"><a class="first__link" href="https://adalab.es/">Comprar ahora</a></button>
   </section>
   <!--GRID-->
   <section class="second">
-      <h2 class="second__title">Volverse organizado se siente mejor con OPEN SPACES</h2>
+      <h2 class="second__title title-green">Volverse organizado se siente mejor con OPEN SPACES</h2>
       <article class="second__article">
           <figure class="second__img">
               <img src="./assets/images/icon_1.png" alt="silla con mesa" title="lo que necesitas" />
@@ -62,6 +63,66 @@
       </article>
 
   </section>
+  <section class="third">
+      <figure class="third__img">
+          <img src="./assets/images/icon_4.png" alt="furgoneta en reparto" title="envio gratis" />
+          <!--Es blanca, respira-->
+      </figure>
+      <h2 class="third__title">Envío gratis garatizado</h2>
+      <p class="third__par">Envío gratis en compras desde 100€</p>
+      <a href="https://adalab.es/" class="third__link">Comprar ahora</a>
+  </section>
+  <section class="fourth">
+      <h2 class="fourth__title title-green">Disfruta creando espacios</h2>
+      <p class="fourth__par">Una linea de productos diseñados para todos tus espacios</p>
+      <button class="fourth__button button"><a class="fourth__link" href="https://adalab.es/">Comprar ahora</a></button>
+      <figure class="fourth__img">
+          <img class="fourth__img--img" src="./assets/images/creando-espacios.jpg"
+              alt="papel higiénico y toallas en cestas" title="creando espacios" />
+      </figure>
+  </section>
+  <footer class="footer">
+      <nav class="footer__shop">
+          <h3>Tienda</h3>
+          <ul>
+              <li><a href="https://adalab.es/">Productos</a></li>
+
+              <li><a href="https://adalab.es/">Cajoneras</a></li>
+
+              <li><a href="https://adalab.es/">Para toda la casa</a></li>
+
+              <li><a href="https://adalab.es/">Habitaciones</a></li>
+
+          </ul>
+      </nav>
+      <nav class="footer__us">
+          <h3>Nosotros</h3>
+          <ul>
+              <li><a href="https://adalab.es/">Nuestra guía</a></li>
+
+              <li><a href="https://adalab.es/">Nuestro diseño</a></li>
+
+              <li><a href="https://adalab.es/">Nuestra historia</a></li>
+
+              <li><a href="https://adalab.es/">Ayuda</a></li>
+
+          </ul>
+      </nav>
+      <nav class="footer__contact">
+          <h3>Contacto</h3>
+          <ul>
+              <li><a href="https://adalab.es/">ayuda@openspaces.com</a></li>
+
+              <li><a href="https://adalab.es/">Socios</a></li>
+          </ul>
+          <div class="contact__icons">
+              <a href="https://adalab.es/"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://adalab.es/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://adalab.es/"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+      </nav>
+      <a href="./index.html#header"><i class="fa-solid fa-arrow-up"></i></a>
+  </footer>
 </body>
 
 </html>
