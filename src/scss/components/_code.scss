@@ -1,5 +1,10 @@
 /*titulo verde, botones verdes .title-green y .button*/
 
+body {
+    background-color: $color-bg;
+    font-family: $font-family;
+}
+
 .button {
     text-transform: capitalize;
 
