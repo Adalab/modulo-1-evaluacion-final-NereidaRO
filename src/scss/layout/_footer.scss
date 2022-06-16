@@ -35,3 +35,19 @@
         margin-top: -2%;
     }
 }
+
+.fa-arrow-up {
+    position: absolute;
+    transform: translate(165px, -40px);
+    color: $color-details;
+    border: none;
+}
+
+.fa-brands {
+    color: $color-details;
+    border: none;
+}
+
+.contact__icons {
+    padding-top: 5%;
+}
