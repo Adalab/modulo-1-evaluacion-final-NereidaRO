@@ -21,10 +21,8 @@
     }
 
     &__title {
-        font-size: $size-h2;
-        font-weight: 600;
-        line-height: 1.5;
         padding-top: 4%;
+        color: $color-details;
     }
 
 }

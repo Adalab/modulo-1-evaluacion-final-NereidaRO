@@ -14,9 +14,10 @@
     }
 
     &__title {
-        font-size: $size-h2;
-        color: $color-principal;
-        font-weight: 600;
         padding-bottom: 15%;
+    }
+
+    &__link {
+        color: $color-details;
     }
 }
