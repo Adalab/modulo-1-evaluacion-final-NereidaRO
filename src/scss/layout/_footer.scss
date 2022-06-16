@@ -1,0 +1,35 @@
+.footer {
+    background-color: $color-principal;
+    color: $color-footer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+
+    &__link {
+        color: $color-footer;
+        font-size: $size-little;
+    }
+
+    &__title {
+        font-size: $size-sbt;
+        font-weight: 600;
+        padding-bottom: 4%;
+    }
+
+    &__shop,
+    &__us,
+    &__contact {
+        margin: 10%;
+        width: 40%;
+    }
+
+    &__shop {
+        padding-top: 3%;
+    }
+
+    &__contact {
+        padding-bottom: 3%;
+    }
+}
