@@ -1,3 +1,8 @@
 a {
     text-decoration: none;
 }
+
+.first__link:hover,
+.fourth__link:hover {
+    color: $color-principal;
+}

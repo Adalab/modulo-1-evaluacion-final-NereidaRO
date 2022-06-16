@@ -1,1 +1,9 @@
 /*titulo verde, botones verdes .title-green y .button*/
+
+.button {
+    text-transform: capitalize;
+
+    &:hover {
+        background-color: $color-details;
+    }
+}
