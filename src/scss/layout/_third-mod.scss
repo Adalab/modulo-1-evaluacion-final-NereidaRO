@@ -1,0 +1,30 @@
+.third {
+    background-color: $color-third;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    color: $color-details;
+
+    &__link {
+        text-decoration: underline;
+        color: $color-details;
+        font-size: $size-med;
+        padding-bottom: 4%;
+    }
+
+    &__par {
+        font-size: $size-little;
+        line-height: 1.5;
+        padding-bottom: 8%;
+    }
+
+    &__title {
+        font-size: $size-h2;
+        font-weight: 600;
+        line-height: 1.5;
+        padding-top: 4%;
+    }
+
+}

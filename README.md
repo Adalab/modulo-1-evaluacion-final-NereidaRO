@@ -10,3 +10,5 @@ Así que me he tomado la licencia de que el h1 sea el nombre de la empresa (Open
 
 2. Tras mirar detenidamente el footer, he llegado a la conclusión de que tiene tres menús, ya que un usuario
 vería tres menús: tienda, nosotros y contacto. De ahí que haya usado 3 navs.
+
+3. Las imágenes no están en <figures> porque todos los estilos que le ponía a una etiqueta se las tenía que poner a la otra. Así el código está más limpio.
