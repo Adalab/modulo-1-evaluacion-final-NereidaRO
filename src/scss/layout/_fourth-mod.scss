@@ -1,3 +1,36 @@
-.fourth__img {
-    width: 100%;
+.fourth {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+
+    &__wrapper {
+        grid-row: 1/4;
+        grid-column: 1/2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__img {
+        width: 100%;
+        grid-row: 4/6;
+        grid-column: 1/2;
+    }
+
+    &__par {
+        text-align: center;
+        font-size: $size-little;
+        line-height: 1.5;
+        color: $color-principal;
+        padding-bottom: 8%;
+    }
+
+    &__title {
+        font-size: $size-h2;
+        font-weight: 600;
+        line-height: 1.5;
+        color: $color-principal;
+        padding-bottom: 2%;
+    }
 }
