@@ -37,17 +37,39 @@
 }
 
 .fa-arrow-up {
-    position: absolute;
-    transform: translate(165px, -40px);
+    position: relative;
+    bottom: 20px;
+    right: -225px;
     color: $color-details;
     border: none;
+    transform: scale(1.25);
 }
 
 .fa-brands {
     color: $color-details;
     border: none;
+    padding: 0 2%;
+    transform: scale(1.25);
 }
 
 .contact__icons {
     padding-top: 5%;
+}
+
+@media all and (min-width: 900px){
+    .footer{
+        flex-direction: row;
+        padding: 8%;
+
+        &__shop,
+        &__us,
+        &__contact{
+            margin: 0%;
+            padding: 0%;
+        }
+    .fa-arrow-up{
+    bottom: -40px;
+    right: -25px;
+    }
+    }
 }
