@@ -1,21 +1,17 @@
 .fourth {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    display: flex;
+    flex-direction: column;
 
     &__wrapper {
-        grid-row: 1/4;
-        grid-column: 1/2;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 13% 5%;
     }
 
     &__img {
         width: 100%;
-        grid-row: 4/6;
-        grid-column: 1/2;
     }
 
     &__par {
@@ -37,7 +33,8 @@
 }
 
 @media all and (min-width:900px){
-    .forth{
-        max-height: 40vh;
+    .fourth__par{
+        padding:0% 1% 5% 1%;
+        max-width: 400px;
     }
 }
