@@ -14,7 +14,7 @@
     }
 
     &__title {
-        padding-bottom: 7%;
+        padding-bottom: 8%;
     }
 
     &__link {
@@ -35,5 +35,12 @@
         &__button {
             margin-left: 10%;
         }
+    }
+}
+
+@media all and (min-width: 1728px){
+    .first__title{
+        font-size: $dksize-h2;
+        max-width: 400px;
     }
 }

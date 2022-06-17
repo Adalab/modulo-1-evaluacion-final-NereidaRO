@@ -23,4 +23,44 @@
     &__nav {
         display: none;
     }
+
+    &__container{
+        padding-top: 3%;
+    }
+}
+
+.fa-bars{
+    color: $color-principal;
+}
+
+@media all and (min-width:1728px){
+    .header{
+        padding-top: 3%;
+
+        &__icon{
+            display: none;
+        }
+        &__nav{
+            display: flex;
+            position: relative;
+            left: 10%;
+        }
+    
+        &__ul{
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            gap: 20%;
+        }
+
+        &__container{
+            margin: auto;
+        }
+    
+        &__link{
+            color: $color-principal;
+            font-size: $size-med;
+        }
+    }
+    
 }

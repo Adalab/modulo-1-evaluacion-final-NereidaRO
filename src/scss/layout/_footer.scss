@@ -73,3 +73,22 @@
     }
     }
 }
+
+@media all and (min-width:1728px){
+    .footer{
+
+        &__title{
+            font-size: $size-h2;
+            padding-bottom: 2%;
+        }
+
+        &__link{
+            font-size: $size-med;
+        }
+    }
+
+    .fa-linkedin-in{
+        padding-left: 0.5%;
+    }
+    
+}

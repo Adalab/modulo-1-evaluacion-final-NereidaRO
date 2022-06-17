@@ -77,3 +77,20 @@
         }
     }
 }
+
+@media all and (min-width: 1728px){
+    .second{
+        &__title{
+            font-size: $dksize-h2;
+            margin-left: 15%;
+        }
+    
+        &__subtitle{
+            font-size: $size-h2;
+        }
+    
+        &__par{
+            font-size: $size-sbt;
+        }
+    }
+}

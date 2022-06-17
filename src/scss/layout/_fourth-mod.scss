@@ -38,3 +38,29 @@
         max-width: 400px;
     }
 }
+
+@media all and (min-width: 1728px){
+    .fourth{
+        flex-direction: row;
+
+        &__wrapper{
+            width: 60%;
+            align-items: flex-start;
+            padding-left: 20%;
+        }
+
+        &__img{
+            width:40%;
+        }
+
+        &__title{
+            font-size: $dksize-h2;
+            max-width: 400px;
+        }
+
+        &__par{
+            font-size: $size-sbt;
+            text-align: left;
+        }
+    }
+}

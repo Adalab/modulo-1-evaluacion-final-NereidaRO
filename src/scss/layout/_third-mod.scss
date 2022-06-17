@@ -26,3 +26,24 @@
     }
 
 }
+
+@media all and (min-width:1728px){
+    .third{
+        padding: 3%;
+
+        &__title{
+            font-size: $dksize-h2;
+            padding-top: 2%;
+        }
+
+        &__par{
+            font-size: $size-sbt;
+            padding-bottom: 3%;
+        }
+
+        &__link{
+            font-size: $size-sbt;
+            padding-bottom: 0;
+        }
+    }
+}
