@@ -35,3 +35,9 @@
         color: $color-details;
     }
 }
+
+@media all and (min-width:900px){
+    .forth{
+        max-height: 40vh;
+    }
+}
