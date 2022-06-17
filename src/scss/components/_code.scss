@@ -1,28 +1,28 @@
 /*titulo verde, botones verdes .title-green y .button*/
 
 body {
-    background-color: $color-bg;
-    font-family: $font-family;
+  background-color: $color-bg;
+  font-family: $font-family;
 }
 
 .button {
-    text-transform: capitalize;
-    width: 155px;
-    height: 48px;
-    background-color: $color-principal;
-    color: $color-details;
-    border: none;
-    font-weight: 600;
-    font-size: $size-med;
+  text-transform: capitalize;
+  width: 155px;
+  height: 48px;
+  background-color: $color-principal;
+  color: $color-details;
+  border: none;
+  font-weight: 600;
+  font-size: $size-med;
 
-    &:hover {
-        background-color: $color-footer;
-    }
+  &:hover {
+    background-color: $color-footer;
+  }
 }
 
 .title-green {
-    font-size: $size-h2;
-    line-height: 1.5;
-    color: $color-principal;
-    font-weight: 600;
+  font-size: $size-h2;
+  line-height: 1.5;
+  color: $color-principal;
+  font-weight: 600;
 }

@@ -1,49 +1,48 @@
 .third {
-    background-color: $color-third;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10%;
-    color: $color-details;
+  background-color: $color-third;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%;
+  color: $color-details;
 
-    &__link {
-        text-decoration: underline;
-        color: $color-details;
-        font-size: $size-med;
-        padding-bottom: 4%;
+  &__link {
+    text-decoration: underline;
+    color: $color-details;
+    font-size: $size-med;
+    padding-bottom: 4%;
+  }
+
+  &__par {
+    font-size: $size-little;
+    line-height: 1.5;
+    padding-bottom: 8%;
+  }
+
+  &__title {
+    padding-top: 4%;
+    color: $color-details;
+  }
+}
+
+@media all and (min-width: 1728px) {
+  .third {
+    padding: 3%;
+
+    &__title {
+      font-size: $dksize-h2;
+      padding-top: 2%;
     }
 
     &__par {
-        font-size: $size-little;
-        line-height: 1.5;
-        padding-bottom: 8%;
+      font-size: $size-med;
+      padding-bottom: 2%;
     }
 
-    &__title {
-        padding-top: 4%;
-        color: $color-details;
+    &__link {
+      font-size: $size-med;
+      padding-bottom: 1.5%;
     }
-
-}
-
-@media all and (min-width:1728px){
-    .third{
-        padding: 3%;
-
-        &__title{
-            font-size: $dksize-h2;
-            padding-top: 2%;
-        }
-
-        &__par{
-            font-size: $size-sbt;
-            padding-bottom: 3%;
-        }
-
-        &__link{
-            font-size: $size-sbt;
-            padding-bottom: 0;
-        }
-    }
+  }
 }

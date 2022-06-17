@@ -1,66 +1,66 @@
 .header {
-    background-color: transparent;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 100vw;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
 
-    &__title {
-        display: none;
-    }
+  &__title {
+    display: none;
+  }
 
-    &__img {
-        height: 96px;
-        width: 213px;
-    }
+  &__img {
+    height: 96px;
+    width: 213px;
+  }
+
+  &__icon {
+    position: fixed;
+    top: 4%;
+    left: 4%;
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  &__container {
+    padding-top: 3%;
+  }
+}
+
+.fa-bars {
+  color: $color-principal;
+}
+
+@media all and (min-width: 1728px) {
+  .header {
+    padding-top: 2%;
 
     &__icon {
-        position: fixed;
-        top: 4%;
-        left: 4%;
+      display: none;
     }
-
     &__nav {
-        display: none;
+      display: flex;
+      position: relative;
+      left: 10%;
     }
 
-    &__container{
-        padding-top: 3%;
+    &__ul {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 20%;
     }
-}
 
-.fa-bars{
-    color: $color-principal;
-}
-
-@media all and (min-width:1728px){
-    .header{
-        padding-top: 3%;
-
-        &__icon{
-            display: none;
-        }
-        &__nav{
-            display: flex;
-            position: relative;
-            left: 10%;
-        }
-    
-        &__ul{
-            display: flex;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 20%;
-        }
-
-        &__container{
-            margin: auto;
-        }
-    
-        &__link{
-            color: $color-principal;
-            font-size: $size-med;
-        }
+    &__container {
+      margin: auto;
+      padding-top: 0;
     }
-    
+
+    &__link {
+      color: $color-principal;
+      font-size: $size-med;
+    }
+  }
 }

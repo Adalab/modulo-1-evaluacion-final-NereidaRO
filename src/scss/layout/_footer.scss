@@ -1,94 +1,94 @@
 .footer {
-    background-color: $color-principal;
+  background-color: $color-principal;
+  color: $color-footer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+
+  &__link {
     color: $color-footer;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: start;
+    font-size: $size-little;
+  }
 
-    &__link {
-        color: $color-footer;
-        font-size: $size-little;
-    }
+  &__title {
+    font-size: $size-sbt;
+    font-weight: 600;
+    padding-bottom: 4%;
+  }
 
-    &__title {
-        font-size: $size-sbt;
-        font-weight: 600;
-        padding-bottom: 4%;
-    }
+  &__shop,
+  &__us,
+  &__contact {
+    margin: 10%;
+    width: 40%;
+  }
+
+  &__shop {
+    padding-top: 3%;
+    margin-bottom: -2%;
+  }
+
+  &__contact {
+    padding-bottom: 3%;
+    margin-top: -2%;
+  }
+}
+
+.fa-arrow-up {
+  position: relative;
+  bottom: 25px;
+  right: -165px;
+  color: $color-details;
+  border: none;
+  transform: scale(1.25);
+}
+
+.fa-brands {
+  color: $color-details;
+  border: none;
+  padding: 0 2%;
+  transform: scale(1.25);
+}
+
+.contact__icons {
+  padding-top: 5%;
+}
+
+@media all and (min-width: 900px) {
+  .footer {
+    flex-direction: row;
+    padding: 8%;
 
     &__shop,
     &__us,
     &__contact {
-        margin: 10%;
-        width: 40%;
+      margin: 0%;
+      padding: 0%;
     }
-
-    &__shop {
-        padding-top: 3%;
-        margin-bottom: -2%;
+    .fa-arrow-up {
+      bottom: -40px;
+      right: -25px;
     }
-
-    &__contact {
-        padding-bottom: 3%;
-        margin-top: -2%;
-    }
+  }
 }
 
-.fa-arrow-up {
-    position: relative;
-    bottom: 20px;
-    right: -225px;
-    color: $color-details;
-    border: none;
-    transform: scale(1.25);
-}
+@media all and (min-width: 1728px) {
+  .footer {
+    padding-left: 23%;
 
-.fa-brands {
-    color: $color-details;
-    border: none;
-    padding: 0 2%;
-    transform: scale(1.25);
-}
-
-.contact__icons {
-    padding-top: 5%;
-}
-
-@media all and (min-width: 900px){
-    .footer{
-        flex-direction: row;
-        padding: 8%;
-
-        &__shop,
-        &__us,
-        &__contact{
-            margin: 0%;
-            padding: 0%;
-        }
-    .fa-arrow-up{
-    bottom: -40px;
-    right: -25px;
-    }
-    }
-}
-
-@media all and (min-width:1728px){
-    .footer{
-
-        &__title{
-            font-size: $size-h2;
-            padding-bottom: 2%;
-        }
-
-        &__link{
-            font-size: $size-med;
-        }
+    &__title {
+      font-size: $size-h2;
+      padding-bottom: 2%;
     }
 
-    .fa-linkedin-in{
-        padding-left: 0.5%;
+    &__link {
+      font-size: $size-med;
     }
-    
+  }
+
+  .fa-linkedin-in {
+    padding-left: 0.5%;
+  }
 }
