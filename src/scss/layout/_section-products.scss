@@ -1,0 +1,27 @@
+.sp{
+    background-color: $color-principal;
+    color: $color-details;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+
+    &__titulo{
+        font-size: $size-h2;
+    }
+
+    &__par{
+        font-size: $size-med;
+    }
+
+    @media all and (min-width: 900px){
+        .sp__wrapper{
+            display: flex;
+            gap: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    }
+}
